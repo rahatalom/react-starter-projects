@@ -1,2 +1,8 @@
 # react-starter-projects
-Created with CodeSandbox
+To start 👇:
+
+npm install
+
+To run 👇:
+
+npm start
