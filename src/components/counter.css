@@ -1,0 +1,26 @@
+.counterBox {
+  background-image: linear-gradient(to right bottom, #eb435c, #ffe227);
+  min-height: 300px;
+  height: fit-content;
+  border-bottom: solid 4px rgb(68, 66, 66);
+}
+
+.counterBox > h2 {
+  color: rgb(68, 66, 66);
+  padding-bottom: 20px;
+}
+
+.counterBox > button {
+  border: none;
+  border-radius: 999px;
+  padding: 6px 10px;
+  margin: 4px;
+  background-image: linear-gradient(to right bottom, #f06e6e, #ffe227);
+}
+
+.counterBox > button:focus {
+  outline-width: 0;
+}
+.counterBox > button:hover {
+  opacity: 0.75;
+}

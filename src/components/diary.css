@@ -1,0 +1,136 @@
+.diary {
+  background-image: linear-gradient(to right bottom, #64dfdf, #6930c3);
+  min-height: 650px;
+  height: fit-content;
+  border-bottom: solid 4px rgb(68, 66, 66);
+}
+
+.diarySearch {
+  border: none;
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.3), 0 2px 4px 1px rgba(0, 0, 0, 0.3);
+
+  border-radius: 999px;
+  margin: 0 17%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.diarySearch > input {
+  background-color: inherit;
+  border: 0;
+  color: rgb(68, 66, 66);
+  font-size: 18px;
+  width: 80%;
+  padding-left: 35px;
+}
+
+.diarySearch > input:focus {
+  outline-width: 0;
+}
+
+.diarySearch > button {
+  border: none;
+  color: rgb(68, 66, 66);
+  font-size: 14px;
+  border-radius: 999px;
+  padding: 8px 15px;
+  background-image: linear-gradient(to right bottom, #64dfdf, #6930c3);
+}
+
+.diarySearch > button:focus {
+  outline-width: 0;
+}
+
+.diaryEntry {
+  color: rgb(68, 66, 66);
+  text-align: left;
+  margin: 50px 100px;
+  padding: 15px 20px;
+  height: 350px;
+  background-image: linear-gradient(to right bottom, #64dfdf, #6930c3);
+  box-shadow: 0px 2px 5px 2px rgb(39, 38, 38, 0.589),
+    0px 2px 5px 2px rgba(39, 38, 38, 0.589);
+}
+.diaryEntry > h4 {
+  padding-bottom: 12px;
+}
+
+.diaryEntry > p {
+  overflow-wrap: break-word;
+}
+.diaryButton {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.diaryButton > button {
+  border: none;
+  color: rgb(68, 66, 66);
+  font-size: 14px;
+  border-radius: 999px;
+  padding: 8px 15px;
+  background-image: linear-gradient(to right bottom, #64dfdf, #6930c3);
+}
+
+.diaryButton > button:focus {
+  outline-width: 0;
+}
+@media (min-width: 601px) {
+  .diarySearch {
+    margin: 0 20%;
+  }
+  .diaryEntry {
+    margin: 50px 130px;
+  }
+}
+@media (min-width: 751px) {
+  .diary {
+    min-height: 790px;
+  }
+  .diarySearch {
+    margin: 0 28%;
+  }
+  .diaryEntry {
+    margin: 50px 150px;
+    height: 510px;
+  }
+}
+@media (min-width: 1101px) {
+  .diarySearch {
+    margin: 0 35%;
+  }
+  .diaryEntry {
+    margin: 50px 270px;
+  }
+  .diary {
+    min-height: 840px;
+  }
+}
+@media (max-width: 900px) {
+  .diaryEntry {
+    margin: 50px 75px;
+  }
+}
+@media (max-width: 800px) {
+  .diaryEntry {
+    margin: 50px 30px;
+  }
+}
+@media (max-width: 750px) {
+  .diaryEntry {
+    margin: 50px 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .diaryEntry {
+    margin: 45px 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .diaryEntry {
+    margin: 30px 10px;
+  }
+}

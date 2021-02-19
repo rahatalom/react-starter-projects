@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+}
+.toDoBox {
+  min-height: 300px;
+  height: fit-content;
+  background-image: linear-gradient(to right bottom, #eb596e, #eb5e0b);
+  border-bottom: solid 4px rgb(68, 66, 66);
+}
+
+h1 {
+  padding: 40px 0 30px;
+  color: rgb(68, 66, 66);
+}
+
+h3 {
+  padding: 20px;
+}
+
+.todoInput {
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.3), 0 4px 8px 2px rgba(0, 0, 0, 0.3);
+  margin: 0 20%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.todoInput > input {
+  width: 80%;
+  border: none;
+  background-color: inherit;
+  padding-left: 35px;
+  font-size: 18px;
+  color: rgb(68, 66, 66);
+}
+
+.todoInput > input:focus {
+  outline-width: 0;
+}
+
+.todoInput > button {
+  border: none;
+  border-radius: 999px;
+  padding: 10px 15px;
+  background-image: linear-gradient(#e06b7d, #dd5d13);
+  font-size: 14px;
+  color: rgb(68, 66, 66);
+}
+
+.todoInput > button:focus {
+  outline-width: 0;
+}
+
+.todoList {
+  margin-top: 40px;
+  text-transform: capitalize;
+  color: rgb(68, 66, 66);
+}
+
+@media (min-width: 600px) {
+  .todoInput {
+    margin: 0 25%;
+  }
+}
+@media (min-width: 750px) {
+  .todoInput {
+    margin: 0 30%;
+  }
+}
+@media (min-width: 900px) {
+  .todoInput {
+    margin: 0 35%;
+  }
+}
